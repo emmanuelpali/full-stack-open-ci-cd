@@ -1,8 +1,8 @@
 module.exports = {
   "env": {
-    "node": true,
     "browser": true,
     "es6": true,
+    "node": true,
     "jest/globals": true
   },
   "extends": [
@@ -30,7 +30,7 @@ module.exports = {
     ],
     "quotes": [
       "error",
-      "double"
+      "single"
     ],
     "semi": [
       "error",
